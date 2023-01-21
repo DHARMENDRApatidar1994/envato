@@ -1,0 +1,1058 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow-x: hidden;
+}
+.page1{
+    width: 100vw;
+    height: 123%;
+    
+}
+.nav1{
+    width: 100vw;
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+    font-size: 2vw;
+    /* padding: 0vh 3vw; */
+    /* position: fixed; */
+
+}
+.nav1 .nav-left{
+    display: flex;
+    margin-left: 2vw;
+    cursor: pointer;
+}
+.nav1 .nav-left i{
+    color:  rgb(36, 189, 36);
+}
+.nav1 span{
+    color:  rgb(36, 189, 36);
+    font-weight: 100;
+}
+.nav1 .nav-right button{
+    padding: 0.6vw 1vw;
+    font-size: 1.5vw;
+    border-radius: 10px;
+    background-color: rgb(36, 189, 36);
+    color: white;
+    margin-right: 2vw;
+    cursor: pointer;
+}
+.nav2{
+    width: 100vw;
+    height: 8%;
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+    align-items: center;
+    font-size: 1.2vw;
+    color: white;
+
+}
+.nav2 .nav-left{
+    width: 25vw;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.nav2 .nav-left h5:hover{
+    color:rgb(233, 83, 83) ;
+}
+.nav2 .nav-right i:hover{
+    color: rgb(233, 83, 83);
+}
+.nav2 .nav-right{
+    width: 20vw;
+    justify-content: space-evenly;
+
+    display: flex;
+    cursor: pointer;
+}
+.nav3{
+    width: 100vw;
+    height: 10%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5vw;
+    font-weight: 600;
+
+
+}
+.nav3 .nav-middle{
+    width: 50vw;
+    display: flex;
+    justify-content: space-between;
+    font-weight: 100;
+    cursor: pointer;
+}
+.nav3 .nav-middle :first-child{
+    color: burlywood;
+}
+.nav3 .nav-right{
+     width: 15vw;
+    display: flex;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.nav3 h4:hover{
+    color: gray;
+}
+.nav3 .nav-right i:hover{
+    color: gray;
+}
+.page1 .layer{
+    width: 100vw;
+    height: 80%;
+    overflow: hidden;
+}
+ .matter{
+    width: 100%;
+    height: 100%;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(p1img1.jpg);
+    background-repeat: no-repeat;
+    background-size:cover ;
+    background-position: bottom;
+    text-align: center;
+    transition: 1s all ease-in;
+    /* object-fit: cover; */
+
+}
+.page1 .layer:hover .matter{
+    transform: scale(1.2);
+}
+.page1 .matter h1{
+    width: 60vw;
+    color: white;
+    font-size: 5vw;
+    font-weight: 300;
+    margin: 1vw;
+    
+}
+.page1 .matter h2{
+    width: 60vw;
+    color: white;
+    font-size: 5vw;
+    font-weight: 300;
+    margin: 1vw;
+   
+}
+.page1 .matter p{
+    color: white;
+    margin: 1vw;
+}
+
+.page1 .matter button{
+    color: white;
+    background-color: red;
+    border: 1px solid red;
+    padding: 0.6vw 1vw;
+    font-size: 2vw;
+    border: none;
+}
+.page1 .matter button:hover{
+    background-color: transparent;
+    border: 1px solid red;
+}
+.page2{
+    width: 100vw;
+    height: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.page2 .box{
+     width: 20vw;
+     line-height: 3vw;
+     margin-top: 5vw;
+}
+.page2 .box i{
+    font-size: 5vw;
+    color: red;
+}
+.page2 .box h1{
+    margin-top: 3vw;
+    font-size: 1.9vw;
+}
+.page3 .image-left img{
+    animation: page3 1s linear ;
+}
+@keyframes page3{
+    0%{
+        transform: translateX(-20%);
+    }
+    100%{
+        transform: translateX(0);
+    }
+    
+}
+.page3{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page3 .matter-right{
+    width: 40vw;
+    line-height: 3vw;
+}
+.page3 .matter-right h6 {
+    color: red;
+    letter-spacing: 0.6vw;
+}
+.page3 .matter-right h1{
+    font-size: 3vw;
+    margin: 2vw 0vw;
+    line-height: 3.6vw;
+}
+.page3 .matter-right button{
+    font-size: 1.2vw;
+    padding: 1vw 2vw;
+    background-color: red;
+    color: white;
+    margin-top: 2.5vw;
+    border: none;
+}
+.page3 .matter-right button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+}
+.page4{
+    width: 100vw;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.page4 .image-right img{
+    animation: page3 1s linear reverse ;
+}
+.page4 .matter-left{
+    width: 40vw;
+    line-height: 3vw;
+}
+.page4 .matter-left h6 {
+    color: red;
+    letter-spacing: 0.6vw;
+}
+.page4 .matter-left h1{
+    font-size: 3vw;
+    margin: 2vw 0vw;
+    line-height: 3.6vw;
+}
+.page4 .matter-left button{
+    font-size: 1.2vw;
+    padding: 1vw 2vw;
+    background-color: red;
+    border: 1px solid red;
+    color: white;
+    margin-top: 2.5vw;
+    border: none;
+    cursor: pointer;
+}
+.page4 .matter-left button:hover{
+    background-color: white;
+    border: 1px solid red;
+    color: black;
+}
+.page5{
+    width: 100vw;
+    height: 70%;
+    overflow: hidden;
+}
+.page5 iframe{
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    cursor: pointer;
+}
+.page5:hover iframe{
+    transform: scale(1.2);
+}
+.page6{
+    width: 100vw;
+    height: 100%;
+}
+.page6 .red{
+    width: 100vw;
+    height: 75%;
+    background-color: rgb(194, 39, 39);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.page6 .red .red1{
+    width: 75vw;
+    text-align: center;
+    color: white;
+}
+.red .red1 h1{
+    font-size: 4vw;
+    font-weight: 200;
+    margin: 3vw 0vw;
+    
+}
+.page6 .red1 h5{
+    letter-spacing: 0.5vw;
+}
+.page6 .red1 h6{
+    letter-spacing: 1vw;
+    font-weight: 600;
+}
+.page6 .news{
+    display: flex;
+    justify-content: space-between;
+    padding: 4vw;
+}
+.news .matter-left{
+    width: 30vw;
+}
+.news .matter-left h1{
+    font-size: 4vw;
+    margin: 3vw 0vw;
+}
+.news .matter-left h5{
+    color: red;
+    letter-spacing: 1vw;
+    margin-top: 2vw;
+}
+.news .matter-right{
+    width: 40vw;
+    display: flex;
+    justify-content: space-between;
+    line-height: 3vw;
+    margin-top: 5.5vw;
+
+}
+.news .matter-right p{
+    width: 15vw;
+    color: gray;
+}
+.page7{
+    width: 100vw;
+    height: 100%;
+}
+.imagine {
+    width: 100vw;
+    margin-top: 10vw;
+    display: flex;
+    justify-content: space-around;
+
+    
+}
+.imagine .image{
+    width: 25vw;
+}
+.image img {
+    width: 100%;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.image .cover{
+    width: 29vw;
+    margin-bottom:3vw ;
+    overflow: hidden;
+
+}
+.image .cover:hover img{
+    transform: scale(1.2);
+}
+.image h2{
+    margin: 2vw 0vw;
+    cursor: pointer;
+}
+.image h2:hover{
+    color: red;
+}
+.image h4{
+    line-height: 2vw;
+    color: rgb(78, 74, 74);
+    font-weight: 100;
+    font-size: 1.5vw;
+}
+.page8{
+    width: 100vw;
+    height: 100%;
+}
+.page8 .company{
+    width: 100vw;
+    height: 55%;
+    display: flex;
+    display: block;
+    justify-content: space-evenly;
+
+}
+.company img{
+    width: 15vw;
+    height: 7vw;
+    margin: 2vw 4vw;
+    
+}
+.page8 .comp{
+    width: 100vw;
+    
+    display: flex;
+    justify-content: space-around;
+}
+.comp h1{
+    color: rgb(167, 158, 158);
+    font-size: 5vw;
+    margin-bottom: 4vw;
+}
+.page8 .redish{
+    width: 100vw;
+    height: 25%;
+    background-color: red;
+    
+}
+.page9{
+    width: 100vw;
+    height: 100%;
+} 
+.page9 .redish{
+    width: 100vw;
+    height: 25%;
+    background-color: red;
+    text-align: center;
+    color: white;
+    border: 1px solid red;
+    
+}
+.redish h1{
+    font-size: 3vw;
+    margin-top: -4vmax;
+}
+.redish1 {
+    display: flex;
+    justify-content: center;
+}
+.redish1 h4{
+    padding-right: 9vw;
+    padding-bottom: 2vw;
+    border-bottom: 1px solid gray;
+    
+    margin-top: 0.8vw;
+    background-color: red;
+    color: white;
+    font-size: 1vw;
+}
+.redish1 button{
+    padding: 0vw 2.5vw;
+    font-size: 2vw;
+    border: 1px solid white;
+    cursor: pointer;
+}
+.redish1 button:hover{
+    background-color: red;
+}
+.page9 .footer{
+    width: 100vw;
+    height: 75vh;
+    background-color: black;
+    border: 1px solid black;
+}
+.footer .footer1{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 4vw 2vw;
+}
+.footer1 .part1{
+    line-height: 3vw;
+
+}
+.footer1 .part1 h6{
+    letter-spacing: 0.5vw;
+    color: gray;
+}
+.footer1 .part1 a{
+    color: white;
+    text-decoration: none;
+}
+.part1 a:hover{
+    color: red;
+}
+.footer .footer2{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    margin: 4vw 2vw;
+}
+.footer2 .part2{
+    width: 18vw;
+    line-height: 2vw;
+}
+
+
+
+@media (max-width: 600px) {
+    .page1{
+        width: 100vw;
+        height: 123%;
+        
+    }
+    .nav1{
+        /* width: 100vw; */
+        /* height: 10%; */
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* align-items: center; */
+        /* background-color: black; */
+        /* color: white; */
+        font-size: 5vw;
+        /* padding: 0vh 3vw; */
+        /* position: fixed; */
+    
+    }
+    .nav1 .nav-left{
+        /* display: flex; */
+        /* margin-left: 2vw; */
+        /* cursor: pointer; */
+    }
+    .nav1 .nav-left i{
+        /* color:  rgb(36, 189, 36); */
+    }
+    .nav1 span{
+        /* color:  rgb(36, 189, 36); */
+        /* font-weight: 100; */
+    }
+    .nav1 .nav-right button{
+        /* padding: 0.6vw 1vw; */
+        font-size: 2.7vw;
+        /* border-radius: 10px; */
+        /* background-color: rgb(36, 189, 36); */
+        /* color: white; */
+        /* margin-right: 2vw; */
+        /* cursor: pointer; */
+    }
+    .nav2{
+        /* width: 100vw; */
+        /* height: 8%; */
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* background-color: red; */
+        /* align-items: center; */
+        font-size: 3.2vw;
+        /* color: white; */
+    
+    }
+    .nav2 .nav-left{
+        width: 45vw;
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+        /* cursor: pointer; */
+    }
+    .nav2 .nav-middle{
+        display: none;
+    }
+    .nav2 .nav-left h5:hover{
+        /* color:rgb(233, 83, 83) ; */
+    }
+    .nav2 .nav-right i:hover{
+        /* color: rgb(233, 83, 83); */
+    }
+    .nav2 .nav-right{
+        width: 40vw;
+        /* justify-content: space-evenly; */
+    
+        /* display: flex; */
+        /* cursor: pointer; */
+    }
+    .nav3{
+        /* width: 100vw; */
+        /* height: 10%; */
+    
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: space-evenly; */
+        font-size: 3vw;
+        /* font-weight: 600; */
+    
+    
+    }
+    .nav3 .nav-middle{
+        width: 90vw;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* font-weight: 100; */
+        /* cursor: pointer; */
+        /* display: none; */
+    }
+    
+    .nav3 .nav-right{
+         width: 45vw;
+        /* display: flex; */
+        /* justify-content: space-evenly; */
+        /* cursor: pointer; */
+    }
+    .nav3 h4:hover{
+        /* color: gray; */
+    }
+    .nav3 .nav-right i:hover{
+        /* color: gray; */
+    }
+    /* .page1 .layer{
+        width: 100vw;
+        height: 80%;
+        overflow: hidden;
+    } */
+     .matter{
+        /* width: 100%; */
+        /* height: 100%; */
+        /* position: relative; */
+        /* display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        background-image: url(p1img1.jpg);
+        background-repeat: no-repeat;
+        background-size:cover ;
+        background-position: center;
+        text-align: center;
+        transition: 1s all ease-in; */
+        /* object-fit: cover; */
+    
+    }
+   
+    .page1 .matter h1{
+        /* width: 60vw; */
+        /* color: white; */
+        font-size: 9vw;
+        /* font-weight: 300; */
+        /* margin: 1vw; */
+        
+    }
+    .page1 .matter h2{
+        /* width: 60vw; */
+        /* color: white; */
+        font-size: 7vw;
+        /* font-weight: 300; */
+        /* margin: 1vw; */
+       
+    }
+    .page1 .matter p{
+        /* color: white; */
+        /* margin: 1vw; */
+        font-size: 1.5vmax;
+    }
+    
+    .page1 .matter button{
+        /* color: white; */
+        /* background-color: red; */
+        /* border: 1px solid red; */
+        /* padding: 0.6vw 1vw; */
+        font-size: 3.5vw;
+        /* border: none; */
+    }
+    
+    .page2{
+        /* width: 100vw; */
+        height: 50%;
+        /* display: flex; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+    .page2 .box{
+         width: 35vw;
+         /* line-height: 3vw; */
+         margin-top: 33vw;
+    }
+    .page2 .box p{
+        font-size: 1.5vmax;
+        margin-top: 1vmax;
+    }
+    .page2 .box i{
+        font-size: 7vw;
+        /* color: red; */
+    }
+    .page2 .box h1{
+        margin-top: 4vw;
+        font-size: 3.9vw;
+    }
+    /* .page3 .image-left img{
+        animation: page3 1s linear ;
+    }
+    @keyframes page3{
+        0%{
+            transform: translateX(-20%);
+        }
+        100%{
+            transform: translateX(0);
+        }
+        
+    } */
+    .page3{
+        /* width: 100vw; */
+        /* height: 100%; */
+        margin-top: 15vmax;
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+        justify-content: space-evenly;
+        /* background-color: aqua; */
+    }
+    .page3 .matter-right{
+        width: 90vw;
+        /* line-height: 3vw; */
+    }
+    .page3 .matter-right h6 {
+        /* color: red; */
+        /* letter-spacing: 0.6vw; */
+        font-size: 1.5vmax;
+    }
+    .page3 .matter-right h1{
+        font-size: 4.5vw;
+        /* margin: 2vw 0vw; */
+        /* line-height: 3.6vw; */
+    }
+    .page3 .matter-right p{
+        font-size: 2vmax;
+        line-height: 2.3vmax;
+    }
+    .page3 .matter-right button{
+        font-size: 3.2vw;
+        padding: 1vw 2.2vw;
+        /* background-color: red; */
+        /* color: white; */
+        /* margin-top: 2.5vw; */
+        /* border: none; */
+    }
+    .page3 .matter-right button:hover{
+        /* background-color: white; */
+        /* border: 1px solid red; */
+        /* color: black; */
+    }
+    .page4{
+        /* width: 100vw; */
+        /* height: 100%; */
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: space-evenly; */
+        /* background-color: red; */
+    }
+    /* .page4 .image-right img{
+        animation: page3 1s linear reverse ;
+    } */
+    .page4 .matter-left{
+        width: 90vw;
+        /* line-height: 3vw; */
+    }
+    .page4 .matter-left h6 {
+        /* color: red; */
+        /* letter-spacing: 0.6vw; */
+        font-size: 1.5vmax;
+    }
+    .page4 .matter-left h1{
+        font-size: 4.5vw;
+        /* margin: 2vw 0vw; */
+        /* line-height: 3.6vw; */
+    }
+    .page4 .matter-left p{
+        font-size: 2vmax;
+        line-height: 2.3vmax;
+    }
+    .page4 .matter-left button{
+        font-size: 3.2vw;
+        padding: 1vw 2.2vw;
+        /* background-color: red; */
+        /* border: 1px solid red; */
+        /* color: white; */
+        /* margin-top: 2.5vw; */
+        /* border: none; */
+        /* cursor: pointer; */
+    }
+    .page4 .matter-left button:hover{
+        /* background-color: white; */
+        /* border: 1px solid red; */
+        /* color: black; */
+    }
+    .page5{
+        /* width: 100vw; */
+        /* height: 70%; */
+        /* overflow: hidden; */
+    }
+    .page5 iframe{
+        /* width: 100%; */
+        /* height: 100%; */
+        /* transition: 1s; */
+        /* cursor: pointer; */
+    }
+    .page5:hover iframe{
+        /* transform: scale(1.2); */
+    }
+    .page6{
+        width: 100vw;
+        height: 100%;
+    }
+    .page6 .red{
+        width: 100vw;
+        height: 75%;
+        background-color: rgb(194, 39, 39);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .page6 .red .red1{
+        /* width: 75vw; */
+        /* text-align: center; */
+        /* color: white; */
+    }
+    .red .red1 h1{
+        font-size: 6.5vw;
+        /* font-weight: 200; */
+        /* margin: 3vw 0vw; */
+        
+    }
+    .page6 .red1 h5{
+        /* letter-spacing: 0.5vw; */
+        font-size: 2vmax;
+    }
+    .page6 .red1 h6{
+        /* letter-spacing: 1vw; */
+        /* font-weight: 600; */
+        font-size: 2vmax;
+    }
+    .page6 .news{
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* padding: 4vw; */
+    }
+    .news .matter-left{
+        width: 30vw;
+    }
+    .news .matter-left h1{
+        font-size: 5vw;
+        /* margin: 3vw 0vw; */
+    }
+    .news .matter-left h5{
+        /* color: red; */
+        /* letter-spacing: 1vw; */
+        /* margin-top: 2vw; */
+        font-size: 1.5vmax;
+    }
+    .news .matter-right{
+        width: 50vw;
+        /* display: flex; */
+        /* justify-content: space-between; */
+        /* line-height: 3vw; */
+        margin-top: 7.5vw;
+    
+    }
+    .news .matter-right p{
+        width: 17vw;
+        /* color: gray; */
+        font-size: 1.5vmax;
+    }
+    .page7{
+        width: 100vw;
+        height: 100%;
+        /* background-color: aqua; */
+    }
+    .imagine {
+        /* width: 100vw; */
+        height: 100%;
+        margin-top: -10vw;
+        /* display: flex; */
+        flex-direction: column;
+        justify-content: space-evenly;
+        align-items: center;
+    
+        
+    }
+    .imagine .image{
+        width: 95%;
+
+        height: 30%;
+    }
+    .image img {
+        
+        
+        /* transition: 0.5s; */
+        /* cursor: pointer; */
+        /* background-color: red; */
+    }
+    .image .cover{
+        width: 70vw;
+        height: 60%;
+        margin-left: 7vmax;
+        /* margin-bottom:3vw ; */
+        /* overflow: hidden; */
+    
+    }
+    .image .cover:hover img{
+        /* transform: scale(1.2); */
+    }
+    .image h2{
+        width: 90%;
+        margin: 1vw 0vw;
+        /* cursor: pointer; */
+        font-size: 2.2vmax;
+    }
+    .image h2:hover{
+        /* color: red; */
+    }
+    .image h4{
+    
+        line-height: 2.7vw;
+        /* color: rgb(78, 74, 74); */
+        /* font-weight: 100; */
+        font-size: 1.5vmax;
+        
+    }
+    .page8{
+        /* width: 100vw; */
+        /* height: 100%; */
+    }
+    .page8 .company{
+        /* width: 100vw; */
+        height: 45%;
+        display: flex;
+        flex-wrap: wrap;
+        /* justify-content: space-evenly; */
+    
+    }
+    .company img{
+        width: 25vw;
+        height: 17vw;
+        margin: 2vw 4vw;
+        
+    }
+    .page8 .comp{
+        width: 100vw;
+        height: 25%;
+        
+        /* display: flex; */
+        /* justify-content: space-around; */
+    }
+    .comp h1{
+        /* color: rgb(167, 158, 158); */
+        font-size: 7vw;
+        
+    }
+    .page8 .redish{
+        width: 100vw;
+        height: 35%;
+        background-color: red;
+        
+    }
+    .page9{
+        /* width: 100vw; */
+        /* height: 100%; */
+        /* background-color: aqua; */
+    } 
+    .page9 .redish{
+        /* width: 100vw; */
+        height: 25%;
+        /* background-color: red; */
+        /* text-align: center; */
+        /* color: white; */
+        /* border: 1px solid red; */
+        
+    }
+    .redish h1{
+        font-size: 6vw;
+        margin-top: -7vmax;
+    }
+    .redish1 {
+        /* display: flex; */
+        /* justify-content: center; */
+    }
+    .redish1 h4{
+        padding-right: 19vw;
+        /* padding-bottom: 2vw; */
+        /* border-bottom: 1px solid gray; */
+        
+        
+        margin-top: 1.7vw;
+        /* background-color: red; */
+        /* color: white; */
+        font-size: 3.5vw;
+    }
+    .redish1 button{
+        padding: 0vw 3.5vw;
+        /* font-size: 2vw; */
+        /* border: 1px solid white; */
+        /* cursor: pointer; */
+    }
+   
+    .page9 .footer{
+        /* width: 100vw; */
+        /* height: 75vh; */
+        /* background-color: black; */
+        /* border: 1px solid black; */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+    }
+    .footer .footer1{
+        height: 30%;
+        /* display: flex; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* color: white; */
+        /* margin: 4vw 2vw; */
+    }
+    .footer1 .part1{
+        width: 40%;
+
+        line-height: 5vw;
+    
+    }
+    .footer1 .part1 h6{
+        /* letter-spacing: 0.5vw; */
+        /* color: gray; */
+        font-size: 1.5vmax;
+    }
+    .footer1 .part1 a{
+        /* color: white; */
+        /* text-decoration: none; */
+        font-size: 1.7vmax;
+    }
+    .part1 a:hover{
+        color: red;
+    }
+    .footer .footer2{
+        width: 100%;
+        height: 40%;
+        /* display: flex; */
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+        /* color: white; */
+        /* margin: 4vw 2vw; */
+    }
+    .footer2 .part2{
+        width: 38vw;
+        line-height: 4vw;
+    }
+    .footer2 p{
+        font-size: 1.7vmax;
+    }
+    .footer2 h4{
+        font-size: 2vmax;
+    }
+    .footer2 h2{
+        font-size: 3.4vmax;
+    }
+    
+}
